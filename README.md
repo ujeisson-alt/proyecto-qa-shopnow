@@ -27,6 +27,7 @@ El proyecto cubrió el ciclo completo de QA: análisis de requerimientos, diseñ
 | Bugs encontrados | **8** — 1 crítico (S1), 3 mayores (S2), 3 menores (S3), 1 trivial (S4) |
 | Cobertura de requerimientos | **100 %** (11 RF + 4 RNF) |
 | Técnicas aplicadas | Partición de equivalencias · Valores límite |
+| Evidencias | 45 capturas nombradas por caso y por defecto |
 
 ## Hallazgos destacados
 
@@ -60,8 +61,11 @@ proyecto-qa-shopnow/
 ├── bugs/
 │   ├── bug-reports-detallados.md       ← los 8 bugs con plantilla completa y ciclo de vida
 │   └── reporte-bugs-resumen.xlsx       ← resumen por severidad y por estado en Jira
-└── informe-final/
-    └── informe-final-qa-shopnow.pdf    ← informe de 7 páginas con las 6 secciones y el GO/NO-GO
+├── informe-final/
+│   └── informe-final-qa-shopnow.pdf    ← informe de 7 páginas con las 6 secciones y el GO/NO-GO
+└── presentacion/
+    ├── sprint-review-qa-shopnow.pdf    ← deck de 15 diapositivas del Sprint Review (12 min)
+    └── guion-sprint-review.md          ← guion, tiempos y preguntas probables con su respuesta
 ```
 
 ## Cómo recorrer este portafolio
@@ -71,6 +75,7 @@ proyecto-qa-shopnow/
 3. **`casos-de-prueba/matriz-de-prueba.xlsx`** — los 36 casos con su resultado real; la hoja *Dashboard* calcula todas las métricas con fórmulas.
 4. **`bugs/bug-reports-detallados.md`** — los 8 defectos con pasos de reproducción, evidencia, impacto en el negocio y ciclo de vida simulado (New → Closed, con un Reopened).
 5. **`informe-final/informe-final-qa-shopnow.pdf`** — el documento de cierre y la recomendación GO / NO-GO.
+6. **`presentacion/sprint-review-qa-shopnow.pdf`** — cómo se presentaron estos resultados al equipo en el Sprint Review.
 
 ## Decisiones de testing que vale la pena destacar
 
